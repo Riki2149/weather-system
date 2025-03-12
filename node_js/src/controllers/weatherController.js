@@ -64,7 +64,7 @@ const getWeatherData = async (req, res) => {
     }
 
     ////Retrieving tomorrow's data in case it is needed
-    if (cityHour + 1 >= 24) {
+    if (cityHour + 1 == 24) {
         try {
             let tomorrow = new Date(new Date().setDate(new Date().getDate() + 1));
             let formattedDate = tomorrow.toISOString().split('T')[0];
