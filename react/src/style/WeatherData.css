@@ -1,0 +1,265 @@
+.weather-data-container {
+    background: #27737D;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    padding: 2%;
+    width: 65%;
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    font-family: Heebo;
+}
+
+.city {
+    font-weight: normal;
+    font-size: 3rem;
+    color: #E8F1F2;
+    margin-bottom: 0%;
+    margin-top: 6%;
+}
+
+.country {
+    font-weight: normal;
+    font-size: 2rem;
+    color: #A8C6CB;
+}
+
+.time {
+    font-weight: normal;
+    font-size: 1.7rem;
+    color: #A8C6CB;
+    margin-bottom: 15%;
+}
+
+.current-temp {
+    font-weight: 650;
+    font-size: 6rem;
+    color: #FFFFFF;
+    margin-left: 15%;
+}
+
+.condition-text {
+    position: relative;
+    bottom: 4%;
+    right: 4%;
+    font-weight: 100;
+    font-size: 2.2rem;
+    color: #FFFFFF;
+}
+
+.label {
+    font-weight: 200;
+    font-size:1.7rem;
+    color: #E8F1F2;
+}
+
+.data {
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: #E8F1F2;
+}
+
+.hour {
+    font-weight: 300;
+    font-size: 1.7rem;
+    color: #A8C6CB;
+}
+
+.temp-c {
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.details {
+    margin-top: 15%;
+}
+
+.hours {
+    margin-top: 15%;
+}
+
+.hours,
+.details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.data-item,
+.data-hour {
+    flex: 1;
+    padding: 1%;
+}
+@media (max-width: 1600px) {
+    .city {
+        font-size: 2rem;
+    }
+    
+    .country {
+        font-size: 1.5rem;
+    }
+    
+    .time {
+        font-size: 1rem;
+    }
+    
+    .current-temp {
+        font-size: 4.2rem;
+    }
+    
+    .condition-text {
+        font-size: 1.7rem;
+    }
+    
+    .label {
+        font-size: 1rem;
+    }
+    
+    .data {
+        font-size: 1rem;
+    }
+    
+    .hour {
+        font-size: 1rem;
+    }
+    
+    .temp-c {
+        font-size: 1rem;
+    }
+    .details {
+        margin-top: 7%;
+    }
+    
+    .hours {
+        margin-top: 7%;
+    }
+
+    
+}
+
+@media (max-width: 1100px) {
+    .city {
+        font-size: 1.6rem;
+    }
+
+    .country {
+        font-size: 1.2rem;
+    }
+
+    .time {
+        font-size: 0.8rem;
+        margin-bottom: 18%;
+    }
+
+    .current-temp {
+        font-size: 3.5rem;
+    }
+
+    .condition-text {
+        font-size: 1.5rem;
+    }
+
+    .label {
+        font-size: 0.9rem;
+    }
+
+    .data {
+        font-size: 0.8rem;
+    }
+
+    .hour {
+        font-size: 0.9rem;
+    }
+
+    .temp-c {
+        font-size: 0.9rem;
+    }
+
+    .details {
+        margin-top: 14%;
+    }
+
+    .hours {
+        margin-top: 16%;
+    }
+}
+
+@media (max-width: 768px) {
+    .weather-data-container {
+        width: 70%;
+        height: 100%;
+
+        overflow: hidden;
+    }
+
+    .time {
+        margin-bottom: 15%;
+    }
+
+    .city {
+        margin-top: 2%;
+    }
+
+    .hours {
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 430px) {
+    .weather-data-container {
+        width: 90%;
+        height: 70%;
+        overflow: hidden;
+    }
+    .city {
+        font-size: 1.4rem;
+    }
+
+    .country {
+        font-size: 0.9rem;
+    }
+
+    .time {
+        font-size: 0.7rem;
+        margin-bottom: 18%;
+    }
+
+    .current-temp {
+        font-size: 2.2rem;
+    }
+
+    .condition-text {
+        font-size: 1rem;
+    }
+
+    .label {
+        font-size: 0.7rem;
+    }
+
+    .data {
+        font-size: 0.6rem;
+    }
+
+    .hour {
+        font-size: 0.8rem;
+    }
+
+    .temp-c {
+        font-size: 0.8rem;
+    }
+
+    .details {
+        margin-top: 14%;
+    }
+
+    .hours {
+        margin-top: 16%;
+    }
+}
+
